@@ -1,0 +1,55 @@
+.app {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  gap: 20px;
+}
+
+form {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+}
+
+form input {
+  height: 30px;
+  flex-basis: 80%;
+}
+
+form button {
+  flex-basis: 20%;
+}
+
+.outerDiv {
+  width: 1170px;
+  margin: auto;
+}
+
+.outerDiv ul {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 50px;
+  list-style: none;
+}
+
+.outerDiv ul li {
+  padding: 10px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: white;
+  position: relative;
+  background-color: black;
+  text-align: left;
+}
+
+.outerDiv ul li span {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+  color: red;
+  background-color: greenyellow !important;
+}
